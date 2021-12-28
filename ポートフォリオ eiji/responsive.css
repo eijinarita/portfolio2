@@ -1,0 +1,121 @@
+@media(max-width:780px) {
+    .container{
+        position: relative;
+        width: 100%;
+        /*background-color: green;*/
+    }
+    .header-left h1{
+        font-size: 20px;
+        letter-spacing: 5px;
+        padding-left: 10px;
+    }
+    header {
+        padding-top: 10px;
+        z-index: 10;
+    }
+    .header-menu {
+        height: 50px;
+    }
+    .header-right {
+        padding-top: 5px;
+        padding-right: 5px;
+    }
+    .table {
+        width: 100%;
+        position:absolute;
+        transform: translateY(-200%);
+        transition: 1s;
+    }
+    .table td {
+        background-color: white;
+        border:solid 1px #cccccc;
+        text-align: center;
+        padding:10px 0;
+        width: 50%;
+    }
+    .table a {
+        letter-spacing: 2px;
+        display: block;
+    }
+    .nav-list {
+        display: none;
+    }
+    .mainimg {
+        display: none;
+    }
+    .mainimg2 {
+        width: 100%;
+    }
+    .top-wrapper {
+        text-align: center;
+        padding-top: 10px;
+    }
+    .contents {
+        display: block;
+    }
+    .about-text {
+        padding-left: 0px;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .skill-content {
+        width: 100%;
+        padding-top: 10%;
+    }
+    .work-contents img {
+        width: 80%;
+    }
+    .award-contents {
+        display: block;
+    }
+    .award-text {
+        margin-top: 5px;
+    }
+    .award-contents img {
+        width: 100%;
+    }
+    .myphoto {
+        /*background-color: brown;*/
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+    .my{
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .humburger {
+        display: block;
+        margin-left: 190px;
+        margin-top: -33px;
+        cursor: pointer;
+    }
+    .humburger:hover {
+        opacity: .7;
+    }
+    .buns,.patty {
+        width: 25px;
+        height: 2px;
+        background-color: gray;
+        margin: 5px;
+    }
+    .table.active {
+        transform: translateY(0%);
+        transition: 0.5s;
+    }
+    .mainImage {
+        max-width: 200px;
+    }
+}
+
+@media(min-width:780px) {
+    .table {
+        display: none;
+    }
+    .mainimg2 {
+        display: none;
+    }
+}
